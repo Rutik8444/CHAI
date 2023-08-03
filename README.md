@@ -9,11 +9,3 @@ Transactions are processed on the Ethereum Sepolia test network.
 The app uses Alchemy to communicate with the Ethereum network.
 Smart contracts are written in Solidity and managed with Hardhat.
 The frontend is built with ReactJS and deployed on Netlify.
-Installation
-To run the app locally, you'll need to follow these steps:
-
-Clone the repository: git clone https://github.com/muneeb-250/buy-me-a-coffee-web3.git
-Navigate to the project directory: cd buy-me-a-coffee-web3
-Install dependencies: npm install
-Start the development server: npm run dev
-The app should now be running at http://localhost:5173.
