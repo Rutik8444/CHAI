@@ -1,13 +1,19 @@
-# Sample Hardhat Project
+Buy Me a CHAI Web3 ☕
+The Buy Me a CHAI Web3 dApp is a decentralized application that allows visitors to send you (fake) ETH as tips and leave nice messages. It's built using Alchemy, Hardhat, Ethers.js, and Ethereum Goerli, with a ReactJS frontend that's deployed on Netlify.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+You can try out the app here: https://chaiwalaa.netlify.app/ 
 
-Try running some of the following tasks:
+Features
+Visitors can send you (fake) ETH as tips and leave nice messages.
+Transactions are processed on the Ethereum Sepolia test network.
+The app uses Alchemy to communicate with the Ethereum network.
+Smart contracts are written in Solidity and managed with Hardhat.
+The frontend is built with ReactJS and deployed on Netlify.
+Installation
+To run the app locally, you'll need to follow these steps:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Clone the repository: git clone https://github.com/muneeb-250/buy-me-a-coffee-web3.git
+Navigate to the project directory: cd buy-me-a-coffee-web3
+Install dependencies: npm install
+Start the development server: npm run dev
+The app should now be running at http://localhost:5173.
